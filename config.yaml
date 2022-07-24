@@ -1,5 +1,7 @@
 version: 3
 endpoint: https://book-sales.hasura.app
+# endpoint: http://localhost:8080
+admin_secret: 03r1Xm9PYZ1pWvK5H06uhP5R23LP4sL4QTaiQaswcWJykqBOUhSFzx0g7CURXVqE
 metadata_directory: metadata
 actions:
   kind: synchronous
