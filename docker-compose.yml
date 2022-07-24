@@ -11,6 +11,8 @@ services:
     image: hasura/graphql-engine:v2.8.4
     ports:
       - "8080:8080"
+    extra_hosts:
+      - "localhost:host-gateway"
     depends_on:
       - "postgres"
     restart: always
